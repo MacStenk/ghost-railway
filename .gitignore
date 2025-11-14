@@ -1,0 +1,39 @@
+# Ghost content
+content/
+ghost-volume/
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+config.production.json
+config.development.json
+
+# Node modules (falls lokal entwickelt)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+
+# Secrets (just in case)
+*.pem
+*.key
+secrets/
